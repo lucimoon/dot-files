@@ -1,0 +1,40 @@
+brew tap "homebrew/bundle"
+brew tap "homebrew/cask"
+brew tap "homebrew/cask-drivers"
+brew tap "homebrew/cask-fonts"
+brew tap "homebrew/core"
+
+# Improved top (interactive process viewer)
+brew "htop"
+# Mac App Store command-line interface
+brew "mas"
+# Install NodeJS versions
+brew "node-build"
+# Manage multiple NodeJS versions
+brew "nodenv"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
+
+cask "alfred"
+cask "brave-browser"
+cask "dash"
+cask "docker"
+cask "grammarly"
+cask "homebrew/cask-drivers/zsa-wally"
+cask "iterm2"
+cask "kap"
+cask "karabiner-elements"
+cask "kindle"
+cask "notion"
+cask "slack"
+cask "spotify"
+cask "todoist"
+cask "visual-studio-code"
+cask "vlc"
+cask "zoomus"
+
+mas "Affinity Designer", id: 824171161
+mas "Clocker", id: 1056643111
+mas "Developer", id: 640199958
+mas "Magnet", id: 441258766  
+mas "Xcode", id: 497799835
