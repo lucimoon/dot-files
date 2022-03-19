@@ -14,6 +14,8 @@ brew "node-build"
 brew "nodenv"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
+# Python environment management virtualenv
+brew "virtualenv"
 
 cask "alfred"
 cask "brave-browser"
