@@ -16,6 +16,8 @@ brew "nodenv"
 brew "tree"
 # Python environment management virtualenv
 brew "virtualenv"
+# Node version manager
+brew "nvm"
 
 cask "airtable"
 cask "alfred"
