@@ -1,14 +1,12 @@
-# This is Git's per-user configuration file.
 [user]
-# Please adapt and uncomment the following lines:
-name = Gabbi Gonzalez
-email = gabxgonz@gmail.com
+	name = Gabbi Gonzalez
+	email = gabxgonz@gmail.com
 [alias]
 	co = checkout
-    b = branch
-    st = status
-    logp = log --oneline --graph
-    cu = branch --merged main | grep -v '^[ *]*main$' | xargs git branch -d
+	b = branch
+	st = status
+	logp = log --oneline --graph
+	cu = branch --merged main | grep -v '^[ *]*main$' | xargs git branch -d
 [lfs "customtransfer.lfs-folder"]
 	path = lfs-folderstore
 	args = ~/google-drive/game-dev/lfs-sync
