@@ -1,8 +1,8 @@
 [user]
   name = Gabbi Gonzalez
   email = gabxgonz@gmail.com
-[default]
-  main
+[init]
+  defaultBranch = main
 [alias]
   co = checkout
   b = branch
