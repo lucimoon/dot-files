@@ -1,11 +1,11 @@
 [user]
-	name = Gabbi Gonzalez
-	email = ggonzalez@newrelic.com
+  name = Gabbi Gonzalez
+  email = ggonzalez@newrelic.com
 [init]
-	defaultBranch = main
+  defaultBranch = main
 [alias]
-	co = checkout
-	b = branch
-	st = status
-	logp = log --oneline --graph
-	cu = branch --merged main | grep -v '^[ *]*main$' | xargs git branch -d
+  co = checkout
+  b = branch
+  st = status
+  logp = log --oneline --graph
+  cu = branch --merged main | grep -v '^[ *]*main$' | xargs git branch -d
