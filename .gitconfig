@@ -1,14 +1,16 @@
 [user]
-	name = Gabbi Gonzalez
-	email = gabxgonz@gmail.com
+  name = Gabbi Gonzalez
+  email = gabxgonz@gmail.com
+[default]
+  main
 [alias]
-	co = checkout
-	b = branch
-	st = status
-	logp = log --oneline --graph
-	cu = branch --merged main | grep -v '^[ *]*main$' | xargs git branch -d
+  co = checkout
+  b = branch
+  st = status
+  logp = log --oneline --graph
+  cu = branch --merged main | grep -v '^[ *]*main$' | xargs git branch -d
 [lfs "customtransfer.lfs-folder"]
-	path = lfs-folderstore
-	args = ~/google-drive/game-dev/lfs-sync
+  path = lfs-folderstore
+  args = ~/google-drive/game-dev/lfs-sync
 [lfs]
-	standalonetransferagent = lfs-folder
+  standalonetransferagent = lfs-folder
